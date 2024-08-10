@@ -18,6 +18,7 @@
 my_dictionary = {
   "String": "A sequence of characters",
   "List": "A sequence of any item",
+  "Car": "A vehicle moving on wheels"
 }
 
 # Note that:
@@ -39,7 +40,8 @@ print("  " + my_dictionary["List"])
 # dictionary above by editing the code around line 21. Then
 # print out the value below.
 
-print("A Dictionary is:")
+print("A Car is:")
+print(" " + my_dictionary["Car"])
 # ...
 
 # Once you're done, move on to 038_dict_operations.py
